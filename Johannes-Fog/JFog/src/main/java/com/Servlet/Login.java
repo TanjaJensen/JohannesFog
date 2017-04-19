@@ -18,29 +18,28 @@ import javax.servlet.http.HttpServletResponse;
 public class Login extends HttpServlet {
 
     public Employee emp;
-    
     boolean loggedin = false;
     int id;
     String password;
-    
-    
+
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException, SQLException {
-        
-        if(!loggedin){
-            
+       
+        if (!loggedin) {
+
             id = Integer.parseInt(request.getParameter("eid"));
             password = request.getParameter("psw");
-            
+
             EmployeeMapper em = new EmployeeMapper();
             Employee e = new Employee(id, password);
-            emp = em.getEmployee(e.getId());          
-            
-            if(id ==(emp.getId()) && password.equals(emp.getPassword())){
-                request.getRequestDispatcher("").forward(request, response);
-            
-            } else{
-                request.getRequestDispatcher("").forward(request, response);
+            emp = em.getEmployee(e.getId());
+
+            if (id == (emp.getId()) && password.equals(emp.getPassword())) {
+                response.sendRedirect("wel.jsp");
+                //request.getRequestDispatcher("wel.jsp").forward(request, response);
+            } else {
+                response.sendRedirect("/Login.jsp");
+                //request.getRequestDispatcher("Login.jsp").forward(request, response);
             }
         }
     }
