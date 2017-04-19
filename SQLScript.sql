@@ -35,11 +35,10 @@ DEFAULT CHARACTER SET = utf8;
 -- Table `jfog`.`product`
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS `jfog`.`product` (
-  `id` INT(11) NOT NULL,
+  `id` INT(11) NOT NULL AUTO_INCREMENT,
   `name` VARCHAR(45) NOT NULL,
-  `vare_nr.` VARCHAR(45) NOT NULL,
+  `vare_nr` VARCHAR(45) NOT NULL,
   `price` DOUBLE NOT NULL,
-  `` VARCHAR(45) NULL DEFAULT 'default',
   PRIMARY KEY (`id`),
   UNIQUE INDEX `id_UNIQUE` (`id` ASC))
 ENGINE = InnoDB;
@@ -50,10 +49,9 @@ ENGINE = InnoDB;
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS `jfog`.`order` (
   `id` INT(11) NOT NULL,
-  `product_id` INT(11) NOT NULL,
+  `delivery_time` VARCHAR(45) NOT NULL,
   `checkout_time` DATETIME(6) NOT NULL,
   `shipping_price` DOUBLE NOT NULL,
-  `delivery_time` TIMESTAMP(6) NOT NULL DEFAULT CURRENT_TIMESTAMP(6) ON UPDATE CURRENT_TIMESTAMP(),
   `pid` INT(11) NOT NULL,
   PRIMARY KEY (`id`),
   INDEX `pid_idx` (`pid` ASC),
