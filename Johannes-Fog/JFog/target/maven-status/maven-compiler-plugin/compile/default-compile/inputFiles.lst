@@ -1,14 +1,10 @@
-C:\Users\Computer\Documents\GitHub\JohannesFog\JohannesFog\Johannes-Fog\JFog\src\main\java\com\Mapper\CustomerMapper.java
-C:\Users\Computer\Documents\GitHub\JohannesFog\JohannesFog\Johannes-Fog\JFog\src\main\java\com\DB\DBConnector.java
-C:\Users\Computer\Documents\GitHub\JohannesFog\JohannesFog\Johannes-Fog\JFog\src\main\java\com\Entity\Orders.java
-C:\Users\Computer\Documents\GitHub\JohannesFog\JohannesFog\Johannes-Fog\JFog\src\main\java\com\Entity\Employee.java
-C:\Users\Computer\Documents\GitHub\JohannesFog\JohannesFog\Johannes-Fog\JFog\src\main\java\com\Servlet\Signup.java
-C:\Users\Computer\Documents\GitHub\JohannesFog\JohannesFog\Johannes-Fog\JFog\src\main\java\com\Mapper\OrderlineMapper.java
-C:\Users\Computer\Documents\GitHub\JohannesFog\JohannesFog\Johannes-Fog\JFog\src\main\java\com\Mapper\ProductMapper.java
-C:\Users\Computer\Documents\GitHub\JohannesFog\JohannesFog\Johannes-Fog\JFog\src\main\java\com\Entity\Orderline.java
-C:\Users\Computer\Documents\GitHub\JohannesFog\JohannesFog\Johannes-Fog\JFog\src\main\java\com\Entity\Product.java
-C:\Users\Computer\Documents\GitHub\JohannesFog\JohannesFog\Johannes-Fog\JFog\src\main\java\com\Mapper\OrdersMapper.java
-C:\Users\Computer\Documents\GitHub\JohannesFog\JohannesFog\Johannes-Fog\JFog\src\main\java\com\Entity\Customer.java
-C:\Users\Computer\Documents\GitHub\JohannesFog\JohannesFog\Johannes-Fog\JFog\src\main\java\com\Servlet\Login.java
-C:\Users\Computer\Documents\GitHub\JohannesFog\JohannesFog\Johannes-Fog\JFog\src\main\java\com\Mapper\EmployeeMapper.java
-C:\Users\Computer\Documents\GitHub\JohannesFog\JohannesFog\Johannes-Fog\JFog\src\main\java\com\Servlet\CustomerInformation.java
+/Users/KH/Desktop/2. Sem/Johannes-Fog/JFog/src/main/java/com/Entity/Customer.java
+/Users/KH/Desktop/2. Sem/Johannes-Fog/JFog/src/main/java/com/Entity/Orders.java
+/Users/KH/Desktop/2. Sem/Johannes-Fog/JFog/src/main/java/com/Entity/Roof.java
+/Users/KH/Desktop/2. Sem/Johannes-Fog/JFog/src/main/java/com/Servlet/OrdersServlet.java
+/Users/KH/Desktop/2. Sem/Johannes-Fog/JFog/src/main/java/com/DB/DBConnector.java
+/Users/KH/Desktop/2. Sem/Johannes-Fog/JFog/src/main/java/com/Mapper/EmployeeMapper.java
+/Users/KH/Desktop/2. Sem/Johannes-Fog/JFog/src/main/java/com/Entity/Employee.java
+/Users/KH/Desktop/2. Sem/Johannes-Fog/JFog/src/main/java/com/Entity/Screw.java
+/Users/KH/Desktop/2. Sem/Johannes-Fog/JFog/src/main/java/com/Entity/Wood.java
+/Users/KH/Desktop/2. Sem/Johannes-Fog/JFog/src/main/java/com/Mapper/OrdersMapper.java
