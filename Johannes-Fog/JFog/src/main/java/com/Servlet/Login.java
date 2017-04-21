@@ -37,10 +37,10 @@ public class Login extends HttpServlet {
             emp = em.getEmployee(e.getId());          
             
             if(id ==(emp.getId()) && password.equals(emp.getPassword())){
-                request.getRequestDispatcher("").forward(request, response);
+                request.getRequestDispatcher("ViewCustomerInfo.jsp").forward(request, response);
             
             } else{
-                request.getRequestDispatcher("").forward(request, response);
+                request.getRequestDispatcher("login.jsp").forward(request, response);
             }
         }
     }

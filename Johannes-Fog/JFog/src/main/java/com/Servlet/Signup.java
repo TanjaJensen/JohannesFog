@@ -27,11 +27,11 @@ public class Signup extends HttpServlet {
         if(e.createEmployee(em)){
                     
         request.getSession().setAttribute("eid", em.getId());
-        request.getSession().setAttribute("psw", em.getPassword());
         request.getSession().setAttribute("name", em.getEname());
+        request.getSession().setAttribute("psw", em.getPassword());
         request.getSession().setAttribute("phone", em.getEphone());
         
-        request.getRequestDispatcher("").forward(request, response);
+        request.getRequestDispatcher("Login.jsp").forward(request, response);
         }
     }
 
